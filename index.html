@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML/CSS Studio</title>
+    <!-- import CSS styles -->
+
+    <link href='https://fonts.googleapis.com/css?family=Space Grotesk' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css" /> 
+  </head>
+
+  <!-- page content goes into <body> -->
+  <body>
+<h1> Iterative Design <i>Partiful Settings</i></h1>
+
+
+<!-- This is the start of the Overview section-->
+
+<div  id="overview">
+    <img id="partiful-gif" src="./images/partiful.gif"/>
+    <div id="overview-text-holder">
+        <p>
+            For this project, we worked on a redesign for Partiful, an event planning website. Specifically,
+            Partiful asked us to reimagine the settings of their mobile app. Despite having helpful settings, 
+            Partiful noticed that users were not utilizing the settings to their full extent or were even aware 
+            of the existence of many of the settings. The problem statement Partiful gave to us was: “How might 
+            we make event settings more prominent and easier to navigate for hosts?” This was the underlying question 
+            we kept in mind throughout this project. The end goal was to create a high-fidelity prototype in Figma of 
+            our redesigned Event Settings page that would enhance the user experience of navigating the settings. 
+            However, before we could reach this end goal, we had to go through iterations of sketchings, low fidelity 
+            wireframes, and critiques, detailed below.
+        </p>
+    </div>
+</div>
+
+
+<!-- This is the end of the Overview section-->
+<!-- This is the start of the Team section-->
+
+<h2> Meet the Team</h2>
+<div class="subsection" id="team-subsection">
+    <div class="team-holder">
+        <div class="team-member">
+            <img src="./images/anastasio.jpeg" alt="Anastasio"/>
+            <div class="member-description"><b>Anastasio Ortiz</b> <BR> Managua, Nicaragua <BR> Applied Math & Computer Science</div>
+        </div>
+        <div class="team-member">
+            <img src="./images/caroline.jpeg" alt="Caroline"/>
+            <div class="member-description"><b>Caroline Hwang</b> <BR> Rockville, Maryland <BR> Applied Math & Computer Science</div>
+        </div>
+        <div class="team-member">
+            <img src="./images/sandra.jpeg" alt="Sandra"/>
+            <div class="member-description"><b>Sandra Sandoval</b> <BR> Los Angeles, California <BR>  Computer Science</div>
+        </div>
+        <div class="team-member">
+            <img src="./images/sarah.jpeg" alt="Sarah"/>
+            <div class="member-description"><b>Sarah Onderdonk</b> <BR>Wyckoff, New Jersey <BR> Computer Science & History</div>
+        </div>
+        
+    </div>
+</div>
+
+<!-- This is the end of the Team section-->
+<!-- This is the start of the Low Fidelity Design Process-->
+
+<h2 class="header-title">Low Fidelity Design Process</h2>
+
+<!-- This is the start of the Sketches div-->
+<div class="subsection" id="sketches">
+    
+    <div class="sketches-holder">        
+        <img src="./images/sketch3.png"/>
+        <img src="./images/sketch2.png"/>
+        <img src="./images/sketch4.png"/>
+        <img src="./images/sketch1.png"/>
+        <img src="./images/sketch7.png"/>
+        <img src="./images/sketch5.jpg"/>
+        <img src="./images/sketch6.jpg"/>
+        
+    </div>
+    <div class="text-holder">
+        <h3>Sketches</h3>
+        <p>
+            Before focusing on the specific aspects of the application settings that we were going to tackle, we first each
+            sketched 2 flows of how we envisioned the feauture could be improved. Scroll through the sketches to see ideas we used 
+            and ideas we considered but decided were not necessary.
+        </p>
+    </div>
+</div>
+<!-- This is the end of the Sketches div-->
+<!-- This is the start of the Lofi Mockup div-->
+<div class="subsection" id="LofiMockup">
+    <div class="text-holder">
+        <h3>LoFi Mockup</h3>
+        <p>
+            Our goal was to make event settings more prominent and easier to navigate for hosts on the mobile version. Some issues we noticed were that some settings sections are hidden by horizontal-scrolling, are very wordy, and are redundant as some settings are already a part of the <i>Create Event</i> page. We decided to focus on making the Settings tab more digestible, and prioritized this over changing the <i>Create Event</i> page. <BR>
+
+            We explored a few options for the Settings page through our various sketches that showcased several different ways in which we could address these issues. We noticed that the current mobile settings page has a lot of unnecessary whitespace, so we thought about putting all the settings on one long, scrollable page, where each section comes one after the other. Users would have been able to skip to a section they were looking for either by using the same horizontal scrolling menu that already exists or through a drop down menu. However, we ultimately decided against vertical scrolling because we thought it would only make the overwhelming nature of the settings worse. <BR>
+
+            Another idea from our sketches was having the Settings menu not be full screen. Once users select a category, the Setting screen would be full screen. This would make the menu feel more integrated with the main <i>Create Event</i> page, but we decided that this would make the menu cramped and smaller, which would not help with readability. <BR>
+
+            In the end, we decided to go with a design that mimics the iPhone settings application. We realized that we wanted to prioritize ease of use for the users, and a setting page with this style allowed for familiarity. After discussing it, we also decided to remove <i>Chip In</i> and <i>Add Co-Hosts</i> from this section because it already exists in the main <i>Create Event</i> page – removing it makes the settings page less confusing and redundant. Finally, since we noticed that some of the info about each setting was wordy and tended to distract and confuse users, we decided to add an info button that, when pressed, displays information about that specific setting. <BR>
+
+            We decided to wireframe only the settings page because that is where the majority of our changes will exist. Once the user clicks the <i>Settings</i> button at the bottom of the event editing page, this is the settings page they will be brought to. As previously mentioned, we wanted to have all the settings listed on one page in this way so that users can see all the possible setting categories at once. Then, if the user clicks one of the setting categories, they are brought to that settings page. The more detailed descriptions are hidden in information buttons. If the user wishes to go back to the main settings page or the edit event page, all they have to do is press the back arrow at the top. <BR>
+                <a class="header-subtitle" href="https://www.figma.com/file/WsgBdreop31PRGomS5yrk3/Lofi-wireframe?type=design&node-id=0-1&mode=design&t=GSMUmh7xoO976qNC-0" target="_blank">Link to Figma</a>
+
+        </p>
+
+    </div> 
+
+
+    <div class="lofi-carousel">
+        <div class="lofi-holder">
+            <div class="lofi-item">
+                    <img src="./images/lofi2.png" alt="Lofi 2"/>
+            </div>
+            <div class="lofi-item">
+                    <img src="./images/lofi3.png" alt="Lofi 1"/>
+            </div>
+            <div class="lofi-item">
+                    <img src="./images/lofi6.png" alt="Lofi 6"/>
+            </div>
+            <div class="lofi-item">
+                    <img src="./images/lofi1.png" alt="Lofi 3"/>
+            </div>
+            <div class="lofi-item">
+                    <img src="./images/lofi4.png" alt="Lofi 4"/>
+            </div>
+            <div class="lofi-item">
+                    <img src="./images/lofi5.png" alt="Lofi 5"/>
+            </div>
+           
+        </div>
+    </div>
+    
+</div>
+
+<!-- This is the end of the Lofi Mockup div-->
+<!-- This is the start of the Loom Walkthrough div-->
+<div class="subsection" id="loom">
+    <div class="text-holder">
+        <h3>Loom Walkthrough</h3>
+        <p>We created a 5 minute recording on Loom walking through these lofi sketches to send to our contacts at Partiful.
+             <a href="https://www.loom.com/share/9efcfc5fd84d41ce8f9686c106405339?sid=6ec047be-2eb2-440c-b82a-bb308f72c0e3" target="_blank">Here</a> is the link if you would like to view it!</p>
+    </div>
+</div>
+
+<!-- This is the end of the Loom Walkthrough div-->
+<!-- This is the start of the Critique div-->
+<div class="subsection" id="critique">
+    <div class="text-holder">  
+        <h3 id="critique-header"> Critique</h3>
+        <div class="box-holder">
+            <div class="box">
+                <p>
+                    <b>Peer Feedback </b> <BR>
+                    When our low-fi design was presented to our peers, they felt that our prototype did not make it clear what our info sections would look like. Many of them liked the idea of the information text expanding underneath, which would move all the text down. They also pointed out that if our users needed info on one of the settings, they might need info on all of them, which would require them to do a lot of thinking. They also suggested we make our font bigger and more readable. 
+                </p>
+            </div>
+            <div class="box">
+                <p>
+                    <b>Founder Feedback</b> <BR>
+                    Our client had similar critiques. They worried that clicking into more icons may get annoying if users had to keep doing it for each setting. They also suggested that we add spacing and reduce the boldness here to make sure things are legible and easy to follow. In addition, they pointed out that settings also works for hosts without having to click into "edit event" - so by removing “Chip In” and adding “Co host,” hosts will be forced to "edit event" in order to change these settings. Finally, they also felt the design of the info buttons was unclear but they thought that either a pop up or adding text that would move the page elements down were both unideal. 
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- This is the end of the Critque div-->
+<!-- This is the start of the Updated Wireframe div-->
+<div class="subsection">
+    <div class="text-holder">
+        <h3>Updated Wireframe</h3>
+        <p>
+            We decided to implement most of the suggested changes. We made the font size more readable, added back the  “Chip In” and Co-host” pages, and fleshed out the functioning of the info buttons. We agreed with the feedback that having individual info buttons for each setting would be redundant and would lead to too much thinking, so we decided to instead have one big button that would expand the info for all the settings on the page. 
+        We ultimately decided to make the information expand underneath each setting, which was contrary to the suggestion by our client but consistent with what our peers said. We decided that since we hadn’t made clear how our information would be displayed in our low-fi prototype, 
+        </p>
+    </div>
+    <div class="hifi-image-holder" id="updated-wireframes">
+        <img src="./images/hifi2.png"/>
+        <img src="./images/hifi3.png"/>
+
+    </div>
+</div>
+
+
+<!-- This is the end of the Updated Wireframe div-->
+
+<!-- This is the end of the Low Fidelity Design Process-->
+<!-- This is the start of the High Fidelity Design Process-->
+
+<h2 class="header-title">High Fidelity Design Process</h2>
+
+<!-- This is the start of the Style Guide div-->
+<div class="subsection" id="style-guide">
+    <div class="text-holder">
+        <h3>Style Guide</h3>
+        <p>
+            
+            For the style guide we tried to keep things as uniform with the rest of the application as possible. 
+            Given that we were working with the settings page, we needed users to relate the same icons/typography 
+            to their corresponding fields when they were outside of the settings page creating an event. Most of the 
+            colors that we used were neutral colors like black and white that went with the style of having all the 
+            functionality look a certain way and then have the background/images be funky and colorful. We decided 
+            that it was important to keep using the icons that were already in place, to maintain a level of 
+            understanding of which settings tab pertains to each setting. It was important for us to keep track of
+            the buttons and icons we were using as we all worked in different tabs and needed them to be in the same 
+            style. Our style guide also includes frames that are already in use from the <i>New Event</i> page and the 
+            <i>Settings</i> page that we used as a skeleton for the redesign.
+        </p>
+    </div>
+    <div class="image-container">
+        <img src="./images/style_guide.png"/>
+    </div>
+
+</div>
+
+<!-- This is the end of the Style Guide div-->
+<!-- This is the start of the HiFi Prototype div-->
+<div class="subsection" id="hifi-prototype">
+    <div class="text-holder">
+        <h3>HiFi Prototype</h3>
+        <p>
+            For our final design, we kept in mind the familiar Apple Settings format. We tried to keep the design simple and intuitive. You can check out some screenshots
+            below or go directly to our Figma and test out our prototype, 
+            <a href="https://www.figma.com/file/LtV3vfiQhiJMd9utoJuCLS/High-Fidelity-Mock-Up?type=design&node-id=82%3A2826&mode=design&t=lBh7Kx0UNoE9sYXJ-1" target="_blank"> here!</a>
+        </p>
+        <div class="hifi-image-holder">
+            <img src="./images/hifi1.png"/>
+            <img src="./images/hifi4.png"/>
+            <img src="./images/hifi5.png"/>
+            <img src="./images/hifi6.png"/>
+            <img src="./images/hifi7.png"/>
+            <img src="./images/hifi8.png"/>
+            <img src="./images/hifi9.png"/>
+            <img src="./images/hifi10.png"/>
+            <img src="./images/hifi11.png"/>
+            <img src="./images/hifi12.png"/>
+            <img src="./images/hifi13.png"/>
+
+        </div>
+    </div>
+
+</div>
+
+<!-- This is the end of the HiFi Prototype div-->
+<!-- This is the start of the Founder Feedback div-->
+
+<div class="subsection" id="founder-feedback">
+    <div class="text-holder"> 
+        <h3>Founder <i>Feedback</i></h3>
+        <p>
+            When we met with the Partiful designers, we received positive feedback in general! They agreed that going with a settings format similar to Apple was a good choice since many users are already familiar with it. Additionally, they agreed that the original design had an overwhelming amount of text and supported our decision to hide the excess text with the information button. One piece of feedback we received was that when a user pressed the information button, it was not clear whether the button was “on” or “off”. To address this, they suggested filling in the button when it was “on” or changing the button to say “show” when hidden and “hide” when visible so that the user knows what actions they can take. Their other suggestions were more so on the structure of the settings page. For instance, they mentioned that we might consider making headers/sections on the Event Settings page, putting some of settings on the Event Settings page rather than their individual pages (e.g. Questionnaire could simply be a toggle, not a page), and adding splashes of color to make it more fun. Additionally, they brought up the ideas of a search functionality and a “Popular” settings section to help users find what they need quickly. We had a great experience meeting with the designers from Partiful, who were kind, supportive, and knowledgeable. It was fascinating to hear about their experiences at a startup. For example, they remarked that they have been thinking about how to improve the Event Settings for a while but are currently unable to due to resource constraints since it is a startup. We will definitely keep their feedback in mind as we work on following projects.
+        </p>
+        <h3><i>Feedback</i> Implementation</h3>
+        <p>
+            From the feedback we received we added a new feauture and changed the style of our High Fidelity Wireframe. First, their suggestion
+            to make the page more playful as it goes with company values we decided to add a pop of color. The other change we made was based on the 
+            hiding and showing information feauture. After hearing that it was not clear what the button did, we added to the button a hide/show subtitle 
+            and had it change colors.   
+        </p>
+        <div class="feedback-holder">
+            <img src="./images/feedback3.png"/>
+            <img src="./images/feedback1.png"/>
+            <img src="./images/feedback2.png"/>
+        </div>
+    </div>
+</div>
+
+<!-- This is the end of the Founder Feedback div-->
+
+<!-- This is the end of the High Fidelity Design Process-->
+<!-- This is the start of the Conclusion-->
+
+<h2>Conclusion</h2>
+<div class="subsection" id="conclusion">
+    <div class="text-holder">
+        <p>
+            As users of Partiful ourselves, we were excited for the chance to work with actual designers from Partiful on this project! It was an interesting experience designing for an existing company because we always had to keep in mind the goal and image of the company. For instance, Partiful aims to make the event planning process as quick and fun as possible, so we had to come up with designs that stayed true to those principles. Additionally, we found that much of this project consisted of balancing the critique and feedback we received with our own visions, which is a challenging but rewarding experience. This project provided an opportunity to gain insight into the process a startup might go through when designing an interface. We had a great time watching how our prototype evolved at different stages and are proud of the final product!
+        </p>
+    </div>
+</div>
